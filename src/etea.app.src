@@ -1,0 +1,12 @@
+{application, etea, [
+    {description, "erlang tea encrypter."},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {files, [
+        "c_src",
+        "enc",
+        "rebar.config",
+        "src"
+    ]}
+]}.
